@@ -11,22 +11,40 @@
             height: 150px;
             color: #444444;
         }
+
+        #box1 {
+            background: #CCDDFF; 
+            text-align: left; 
+            border: dashed;
+        }
+        
+        #box2 {
+            background: #CCCCFF; 
+            text-align: center; 
+            border: solid;
+        }
+
+        #box3 {
+           background: #FFCCCC; 
+           text-align: right;  
+           border: dotted; 
+        }
     </style>
 </head>
 <body>
-    <div class="box" style="background: #CCDDFF; text-align: left; border: dashed;">
+    <div class="box" id="box1">
         <p>背景 ＃CCDDFF</p>
         <p>字置左 ＃444444</p>
         <p>長寬各 150px</p>
         <p>邊框 dashed</p>
     </div>
-    <div class="box" style="background: #CCCCFF; text-align: center; border: solid;">
+    <div class="box" id="box2">
         <p>背景 ＃CCCCFF</p>
         <p>字置中 ＃444444</p>
         <p>長寬各 150px</p>
         <p>邊框 solid</p>
     </div>
-    <div class="box" style="background: #FFCCCC; text-align: right;  border: dotted;">
+    <div class="box" id="box3">
         <p>背景 ＃FFCCCC</p>
         <p>字置右 ＃444444</p>
         <p>長寬各 150px</p>

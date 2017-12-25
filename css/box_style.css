@@ -1,0 +1,23 @@
+.box {
+    width: 150px;
+    height: 150px;
+    color: #444444;
+}
+
+#box1 {
+    background: #CCDDFF; 
+    text-align: left; 
+    border: dashed;
+}
+
+#box2 {
+    background: #CCCCFF; 
+    text-align: center; 
+    border: solid;
+}
+
+#box3 {
+    background: #FFCCCC; 
+    text-align: right;  
+    border: dotted; 
+}
